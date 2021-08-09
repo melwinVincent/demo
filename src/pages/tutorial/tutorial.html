@@ -8,6 +8,7 @@
 
 <ion-content no-bounce>
   DEV-1 changes
+  <div style="background: red;">blah</div>
   <ion-slides pager="true" dir="{{dir}}" (ionSlideWillChange)="onSlideChangeStart($event)">
     <ion-slide *ngFor="let slide of slides">
       <img [src]="slide.image" class="slide-image" />
