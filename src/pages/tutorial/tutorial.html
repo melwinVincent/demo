@@ -8,11 +8,9 @@
 
 <ion-content no-bounce>
 
-  STAY SAFE !
-  <div style="background: gray;">blah</div>
+  <div style="background: black;">blah</div>
 
   <ion-slides pager="true" dir="{{dir}}" (ionSlideWillChange)="onSlideChangeStart($event)">
-    BLAH
     <ion-slide *ngFor="let slide of slides">
       <img [src]="slide.image" class="slide-image" />
       <h2 class="slide-title" [innerHTML]="slide.title"></h2>
